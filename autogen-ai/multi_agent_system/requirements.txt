@@ -1,0 +1,43 @@
+# Core AutoGen
+pyautogen==0.2.38
+
+# LLM Support
+openai>=1.0.0
+
+# Async support
+asyncio
+
+# Data processing (for agent tools)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API frameworks (for backend agents)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+
+# Testing (for QA agent)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.1.0
+mypy>=1.5.0
+
+# Security (for security agent)
+bandit>=1.7.5
+
+# Utilities
+python-dotenv>=1.0.0
+typing-extensions>=4.8.0
+
+# Logging
+structlog>=23.1.0
+
+# Optional: State persistence
+# Uncomment if adding database support
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# redis>=5.0.0  # Redis cache
